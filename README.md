@@ -1,6 +1,8 @@
 <img align="left" src="animation.svg" /><br/><br/>
 
-<a align="left" href="https://www.linkedin.com/in/giacomovallorani" title="linkedin"><img src="linkedin.svg"></a>
+<p  align="left">
+  <a href="https://www.linkedin.com/in/giacomovallorani" title="linkedin"><img src="linkedin.svg"></a>
+ </p>
 
 <!--
 **Vallasc/Vallasc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
