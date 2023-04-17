@@ -1,4 +1,15 @@
-### Hi there 👋
+<p align="center">
+    <br>
+    <samp>
+        Hello there! I'm <b>Giacomo Vallorani</b>.
+        <!--<br> <img align="middle" style="width: 250px" src="image.png" />
+        <br> Master's degree graduate at Alma Mater Studiorum of Bologna. Professional profile @mase-git</a></b>.
+        <br> -->
+    </samp>
+    <br>
+<p align="center">
+</p>
+<br><br>
 
 <!--
 **Vallasc/Vallasc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
