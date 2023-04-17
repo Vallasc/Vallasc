@@ -4,8 +4,7 @@
         Hello there! I'm <b>Giacomo Vallorani</b>.
         <br> <img align="middle" src="animation.svg" />
         
-        <!--
-        <br> Master's degree graduate at Alma Mater Studiorum of Bologna. Professional profile @mase-git</a></b>.
+        <!--<br> Master's degree graduate at Alma Mater Studiorum of Bologna. Professional profile @mase-git</a></b>.
         <br> -->
     </samp>
     <br>
