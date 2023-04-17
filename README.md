@@ -1,8 +1,5 @@
 <p align="center">
-    <samp>
-        Hello there! I'm <b>Giacomo Vallorani</b>.
-    </samp>
-        <br><img align="middle" src="animation.svg" />
+    <img align="middle" src="animation.svg" />
 </p>
 
 <!--
