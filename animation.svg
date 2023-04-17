@@ -19,7 +19,7 @@
 
                 :root {
                     --first-word: "developer.";
-                    --first-word-width: 90px;
+                    --first-word-width: 86px;
                     --second-word: "maker.";
                     --second-word-width: 52px;
                     --third-word: "robot.";
@@ -69,7 +69,7 @@
                     display: inline-block;
                     white-space: nowrap;
                     border-right: 4px solid transparent;
-                    animation: typewriter-k1 1s steps(10) 6s normal both, blink-text-cursor 0.8s steps(10) 6s 5;
+                    animation: typewriter-k1 1s steps(10) 6s normal both, blink-text-cursor 0.8s steps(10) 6s 1;
                 }
                 @keyframes typewriter-k1 {
                     0% {
@@ -93,7 +93,7 @@
                     display: inline-block;
                     white-space: nowrap;
                     border-right: 4px solid transparent;
-                    animation: typewriter-kw 15s steps(20) 10s normal both infinite, blink-text-cursor 0.8s steps(20) 10s infinite;
+                    animation: typewriter-kw 15s steps(20) 7s normal both infinite, blink-text-cursor 0.8s steps(20) 7s infinite;
                 }
                 @keyframes typewriter-kw {
 
