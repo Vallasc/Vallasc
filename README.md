@@ -1,4 +1,4 @@
-<img align="left" src="animation.svg" /><br/>
+<img align="left" src="animation.svg" /><br/><br/>
 
 <a align="left" href="https://www.linkedin.com/in/giacomovallorani" title="linkedin"><img src="linkedin.svg"></a>
 
