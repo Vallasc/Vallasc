@@ -10,10 +10,11 @@
         }
         .text{
             font-family: 'Space Mono';
+            color: blue;
         }
     </style>
     </defs>
-    <text class="text" x="10" y="20" style="fill:red;font-family: 'Roboto';">
+    <text class="text" x="10" y="20">
         I'm a Student 
     </text>
 </svg>
