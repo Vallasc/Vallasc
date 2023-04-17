@@ -3,9 +3,9 @@
 <br>
 <br>
 <br>
-<p align="center">
+<!--<p align="center">
 <img align="left" src="contacts.svg" />
-</p>
+</p>-->
 <p align="center">
    <a href="mailto:giacomovallorani@protonmail.com" title="email"><img src="email.svg"></a>
    <a href="https://www.linkedin.com/in/giacomovallorani" title="linkedin"><img src="linkedin.svg"></a>
