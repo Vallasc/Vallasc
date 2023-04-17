@@ -5,7 +5,7 @@
             <style>
                 path {
                     fill: transparent;
-                    animation: show 0.5s steps(40) 10s forwards;
+                    animation: show 0.5s steps(40) 15s forwards;
                 }
 
                 @media (prefers-color-scheme: light) {
@@ -33,7 +33,7 @@
                 }
 
                 svg {
-                    padding: 4px;
+                    margin-right: 8px;
                 }
 
             </style>
