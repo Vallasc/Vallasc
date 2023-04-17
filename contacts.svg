@@ -13,6 +13,9 @@
                 .container {
                     font-family: 'Space Mono';
                     font-size: 14px;
+                }
+                
+                .text {
                     color: transparent;
                     animation: show 0.5s linear 20s forwards;
                 }
@@ -43,7 +46,9 @@
 
             </style>
             <div class="container">
-                Let's get in touch
+                <div class="container">
+                    Let's get in touch
+                </div>
             </div>
         </div>
     </foreignObject>
