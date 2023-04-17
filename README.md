@@ -2,6 +2,7 @@
 
 <p  align="center">
  </p>
+ <br><br>
  
  <a href="https://www.linkedin.com/in/giacomovallorani" title="linkedin"><img src="linkedin.svg"></a>
 <!--
