@@ -1,5 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="90" width="200" viewBox="0 0 200 90">
-  <text x="10" y="20" style="fill:red;">
-    I'm a Student
-  </text>
+    <defs>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic');
+        .text{
+            font-family: 'Roboto';
+        }
+    </style>
+    </defs>
+    <text class="text" x="10" y="20" style="fill:red;font-family: 'Roboto';">
+        I'm a Student 
+    </text>
 </svg>
