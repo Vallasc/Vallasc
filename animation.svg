@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="90"
-    viewBox="0 0 500 90">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="100"
+    viewBox="0 0 500 100">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
@@ -13,7 +13,7 @@
 
                 .container {
                     font-family: 'Space Mono';
-                    font-size: 15px;
+                    font-size: 14px;
                     color: white;
                     /*background-color: black;*/
                 }
@@ -26,29 +26,81 @@
 
                 :root {
                     --first-word: "developer.";
-                    --first-word-width: 94px;
+                    --first-word-width: 90px;
                     --second-word: "maker.";
-                    --second-word-width: 57px;
+                    --second-word-width: 52px;
                     --third-word: "human.";
-                    --third-word-width: 58px;
+                    --third-word-width: 54px;
+
+                    --t0-text: "Hello there! I'm Giacomo Vallorani.";
+                    --t0-width: 300px;
+
+                    --t1-text: "I'm a";
+                    --t1-width: 50px;
                 }
 
-                .typewriter-text {
+                .typewriter-0 {
                     display: inline-block;
-                    transform: translate(0px, 20%);
+                    transform: translate(0px, 5px);
+                }
+                .typewriter-0::before {
+                    width: 0px;
+                    content: "";
+                    overflow: hidden;
+                    display: inline-block;
+                    white-space: nowrap;
+                    border-right: 4px solid transparent;
+                    animation: typewriter-k0 3s steps(40) 2s normal both, blink-text-cursor 0.8s steps(40) 8;
+                }
+                @keyframes typewriter-k0 {
+                    0% {
+                        content: var(--t0-text);
+                        width: 0px;
+                    }
+                    100% {
+                        content: var(--t0-text);
+                        width: var(--t0-width);
+                    }
                 }
 
-                .typewriter-text::before {
+                .typewriter-1 {
+                    display: inline-block;
+                    transform: translate(0px, 5px);
+                }
+                .typewriter-1::before {
+                    width: 0px;
+                    content: "";
+                    overflow: hidden;
+                    display: inline-block;
+                    white-space: nowrap;
+                    border-right: 4px solid transparent;
+                    animation: typewriter-k1 1s steps(10) 6s normal both, blink-text-cursor 0.8s steps(10) 6s 5;
+                }
+                @keyframes typewriter-k1 {
+                    0% {
+                        content: var(--t1-text);
+                        width: 0px;
+                    }
+                    100% {
+                        content: var(--t1-text);
+                        width: var(--t1-width);
+                    }
+                }
+
+                .typewriter-words {
+                    display: inline-block;
+                    transform: translate(0px, 5px);
+                }
+                .typewriter-words::before {
                     width: 0px;
                     content: var(--first-word);
                     overflow: hidden;
                     display: inline-block;
                     white-space: nowrap;
-                    border-right: 4px solid black;
-                    animation: typewriter 15s steps(20) 1s normal both infinite, blinkTextCursor 0.8s steps(20) infinite;
+                    border-right: 4px solid transparent;
+                    animation: typewriter-kw 15s steps(20) 10s normal both infinite, blink-text-cursor 0.8s steps(20) 10s infinite;
                 }
-
-                @keyframes typewriter {
+                @keyframes typewriter-kw {
 
                     0% {
                         /* 5 */
@@ -109,13 +161,17 @@
                         width: var(--third-word-width);
                     }
 
+                    98% {
+                        content: var(--third-word);
+                        width: 0px;
+                    }
                     100% {
                         content: var(--third-word);
                         width: 0px;
                     }
                 }
 
-                @keyframes blinkTextCursor {
+                @keyframes blink-text-cursor {
                     from {
                         border-right-color: white;
                     }
@@ -124,12 +180,24 @@
                         border-right-color: transparent;
                     }
                 }
+                @media (prefers-color-scheme: light) {
+                    @keyframes blink-text-cursor {
+                        from {
+                            border-right-color: black;
+                        }
+
+                        to {
+                            border-right-color: transparent;
+                        }
+                    }
+                }
             </style>
             <div class="container">
-                Hello there! I'm <b>Giacomo Vallorani</b>.<br />
-                <div style="display:inline;">I'm a</div>
-                <b>
-                    <div class="typewriter-text"></div>
+                <div class="typewriter-0"></div>
+                <br/>
+                <div class="typewriter-1"></div>
+                <b style="margin-left: -10px;">
+                    <div class="typewriter-words"></div>
                 </b>
             </div>
         </div>
