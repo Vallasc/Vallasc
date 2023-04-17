@@ -2,7 +2,7 @@
     <br>
     <samp>
         Hello there! I'm <b>Giacomo Vallorani</b>.
-        <br> <img align="middle" style="width: 250px" src="animation.svg" />
+        <br> <img align="middle" src="animation.svg" />
         <!--
         <br> Master's degree graduate at Alma Mater Studiorum of Bologna. Professional profile @mase-git</a></b>.
         <br> -->
