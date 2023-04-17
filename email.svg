@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
+    viewBox="0 0 32 32">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                path {
+                    fill: transparent;
+                    animation: show 0.5s steps(40) 20s forwards;
+                }
+
+                @media (prefers-color-scheme: light) {
+                    @keyframes show {
+                        0% {
+                            fill: transparent;
+                        }
+
+                        100% {
+                            fill: black;
+                        }
+                    }
+                }
+
+                @media (prefers-color-scheme: dark) {
+                    @keyframes show {
+                        0% {
+                            fill: transparent;
+                        }
+
+                        100% {
+                            fill: white;
+                        }
+                    }
+                }
+
+                svg {
+                    margin-right: 8px;
+                }
+
+            </style>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"/></svg>
+        </div>
+    </foreignObject>
+</svg>
