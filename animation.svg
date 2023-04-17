@@ -22,8 +22,10 @@
                     --first-word-width: 90px;
                     --second-word: "maker.";
                     --second-word-width: 52px;
-                    --third-word: "human.";
-                    --third-word-width: 54px;
+                    --third-word: "robot.";
+                    --third-word-width: 35px;
+                    --fourth-word: "human.";
+                    --fourth-word-width: 54px;
 
                     --t0-text: "Hello there! I'm Giacomo Vallorani.";
                     --t0-width: 300px;
@@ -100,66 +102,66 @@
                         content: var(--first-word);
                         width: 0px;
                     }
-
                     10% {
                         /* 10 */
                         content: var(--first-word);
                         width: var(--first-word-width);
                     }
-
-                    25% {
-                        /* 15 */
+                    20% {
+                        /* 10 */
                         content: var(--first-word);
                         width: var(--first-word-width);
                     }
-
-                    30% {
+                    25% {
                         /* 5 */
                         content: var(--first-word);
                         width: 0px;
                     }
 
-                    35% {
+                    30% {
                         content: var(--second-word);
                         width: 0px;
                     }
-
-                    45% {
+                    40% {
                         content: var(--second-word);
                         width: var(--second-word-width);
+                    }
+                    50% {
+                        content: var(--second-word);
+                        width: var(--second-word-width);
+                    }
+                    55% {
+                        content: var(--second-word);
+                        width: 0px;
                     }
 
                     60% {
-                        content: var(--second-word);
-                        width: var(--second-word-width);
-                    }
-
-                    65% {
-                        content: var(--second-word);
+                        content: var(--third-word);
                         width: 0px;
                     }
-
+                    66% {
+                        content: var(--third-word);
+                        width: var(--third-word-width);
+                    }
                     70% {
                         content: var(--third-word);
                         width: 0px;
                     }
 
-                    80% {
-                        content: var(--third-word);
-                        width: var(--third-word-width);
-                    }
-
-                    95% {
-                        content: var(--third-word);
-                        width: var(--third-word-width);
-                    }
-
-                    98% {
-                        content: var(--third-word);
+                    71% {
+                        content: var(--fourth-word);
                         width: 0px;
                     }
+                    86% {
+                        content: var(--fourth-word);
+                        width: var(--fourth-word-width);
+                    }
+                    96% {
+                        content: var(--fourth-word);
+                        width: var(--fourth-word-width);
+                    }
                     100% {
-                        content: var(--third-word);
+                        content: var(--fourth-word);
                         width: 0px;
                     }
                 }
