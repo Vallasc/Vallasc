@@ -5,7 +5,7 @@
             <style>
                 path {
                     fill: transparent;
-                    animation: show 0.5s steps(40) 30s forwards;
+                    animation: show 0.5s steps(40) 25s forwards;
                 }
 
                 @media (prefers-color-scheme: light) {
