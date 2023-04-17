@@ -1,7 +1,7 @@
 <img align="left" src="animation.svg" /><br/><br/>
 
-<p  align="center">
- </p>
+ <br>
+ <br>
  <br>
  <a href="mailto:giacomovallorani@protonmail.com" title="email"><img src="email.svg"></a>
   <a href="https://www.linkedin.com/in/giacomovallorani" title="linkedin"><img src="linkedin.svg"></a>
