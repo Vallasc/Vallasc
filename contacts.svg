@@ -14,8 +14,8 @@
                 .container {
                     font-family: 'Space Mono';
                     font-size: 14px;
-                    color: black;
-                    animation: show 0.5s linear 15s forwards;
+                    color: transparent;
+                    animation: show 0.5s linear 20s forwards;
                 }
 
                 @media (prefers-color-scheme: light) {
