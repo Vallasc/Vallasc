@@ -1,6 +1,4 @@
-<p align="center">
-    <img align="middle" src="animation.svg" />
-</p>
+<img align="left" src="animation.svg" />
 
 <!--
 **Vallasc/Vallasc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
