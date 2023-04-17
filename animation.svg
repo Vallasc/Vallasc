@@ -10,7 +10,10 @@
         }
         .text{
             font-family: 'Space Mono';
-            color: '#F00';
+            fill: black;
+        }
+        @media (prefers-color-scheme: dark) {
+            text { fill: white; }
         }
     </style>
     </defs>
