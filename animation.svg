@@ -14,14 +14,7 @@
                 .container {
                     font-family: 'Space Mono';
                     font-size: 14px;
-                    color: white;
                     /*background-color: black;*/
-                }
-
-                @media (prefers-color-scheme: light) {
-                    .container {
-                        color: balck;
-                    }
                 }
 
                 :root {
@@ -171,15 +164,6 @@
                     }
                 }
 
-                @keyframes blink-text-cursor {
-                    from {
-                        border-right-color: white;
-                    }
-
-                    to {
-                        border-right-color: transparent;
-                    }
-                }
                 @media (prefers-color-scheme: light) {
                     @keyframes blink-text-cursor {
                         from {
@@ -189,6 +173,26 @@
                         to {
                             border-right-color: transparent;
                         }
+                    }
+
+                    .container {
+                        color: black;
+                    }
+                }
+
+                @media (prefers-color-scheme: dark) {
+                    @keyframes blink-text-cursor {
+                        from {
+                            border-right-color: white;
+                        }
+
+                        to {
+                            border-right-color: transparent;
+                        }
+                    }
+
+                    .container {
+                        color: white;
                     }
                 }
             </style>
